@@ -10,7 +10,7 @@ VCRUNTIME1="C:/Users/libsbml/Downloads/libsbml/libSBML_dependencies_vs14_release
 VCRUNTIME2="C:/Users/libsbml/Downloads/libsbml/libSBML_dependencies_vs14_release_x64/libSBML-Dependencies-1.0.0-b1-win64/bin/vcruntime140.dll"
 
 # libSBML deps
-LIBSBML_NAME="libsbml-5.16.0"
+LIBSBML_NAME="libsbml-5.16.0-experimental"
 LIBSBML_DEP_DIR="C:/Users/libsbml/Downloads/libsbml-dep-win32-vs15-static"
 LIBBZIP2="$LIBSBML_DEP_DIR/lib/libbz2.lib"
 LIBBZIP2_INCLUDE="$LIBSBML_DEP_DIR/include"
