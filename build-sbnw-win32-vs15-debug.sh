@@ -7,6 +7,6 @@ set -o verbose
 
 THIS_DIR="$( dirname "${BASH_SOURCE[0]}" )"
 
-PLATFORM=win32-vs15-release
+PLATFORM=win32-vs15-debug
 
 source $THIS_DIR/build/build-sbnw.sh
