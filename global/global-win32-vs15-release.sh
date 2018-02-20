@@ -8,7 +8,7 @@ set -o verbose
 THIS_DIR="$( dirname "${BASH_SOURCE[0]}" )"
 
 # get user settings
-source $THIS_DIR/../settings-win32-vs15.sh
+source $THIS_DIR/../settings-$PLATFORM.sh
 
 CMAKE_GEN=-G"Visual Studio 15 2017"
 CMAKE_BUILD_CMD="\"$CMAKE\" --build . --target install --config Release"
