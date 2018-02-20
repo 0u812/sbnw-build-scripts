@@ -7,5 +7,5 @@ set -o verbose
 
 THIS_DIR="$( dirname "${BASH_SOURCE[0]}" )"
 
-source $THIS_DIR/global/global-$PLATFORM.sh
-source $THIS_DIR/libsbml/build.sh
+source $THIS_DIR/../global/global-$PLATFORM.sh
+source $THIS_DIR/../libsbml/build.sh
