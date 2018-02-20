@@ -2,7 +2,7 @@
 
 SRC_ROOT="C:/Users/libsbml/Documents/devel/src"
 BUILD_ROOT="C:/Users/libsbml/Documents/devel/build"
-ISNTALL_ROOT="C:/Users/libsbml/Documents/devel/install"
+INSTALL_ROOT="C:/Users/libsbml/Documents/devel/install"
 
 CMAKE="C:/Users/libsbml/Downloads/cmake-3.11.0-rc1-win64-x64/bin/cmake"
 
