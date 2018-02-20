@@ -11,8 +11,8 @@ THIS_DIR="$( dirname "${BASH_SOURCE[0]}" )"
 source $THIS_DIR/../settings-$PLATFORM.sh
 
 CMAKE_GEN=-G"Visual Studio 15 2017"
-CMAKE_BUILD_CMD="\"$CMAKE\" --build . --target install --config Release"
-BUILD_TYPE=Release
+CMAKE_BUILD_CMD="\"$CMAKE\" --build . --target install --config Debug"
+BUILD_TYPE=Debug
 
 # libSBML
 LIBSBML_INSTNAME=$LIBSBML_NAME-$PLATFORM
